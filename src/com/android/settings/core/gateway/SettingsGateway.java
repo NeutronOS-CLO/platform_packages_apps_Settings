@@ -16,6 +16,8 @@
 
 package com.android.settings.core.gateway;
 
+import com.android.settings.DcDimmingSettings;
+
 import com.android.settings.AllInOneTetherSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
@@ -345,6 +347,7 @@ public class SettingsGateway {
             MainClearConfirm.class.getName(),
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
+            DcDimmingSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
