@@ -41,4 +41,9 @@
     <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
     <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">VPN DNS Control</string>
+    <string name="vpn_enforce_dns_summary">Take control of your DNS settings when using a VPN. Private DNS will be disabled while connected and restored upon disconnection. Remember: Think before you surf!</string>
+
 </resources>
