@@ -17,6 +17,7 @@
 package com.android.settings.core.gateway;
 
 import com.android.settings.DcDimmingSettings;
+import com.android.settings.RefreshRateSettings;
 
 import com.android.settings.AllInOneTetherSettings;
 import com.android.settings.DisplaySettings;
@@ -348,6 +349,7 @@ public class SettingsGateway {
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
             DcDimmingSettings.class.getName(),
+            RefreshRateSettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
